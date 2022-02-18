@@ -27,17 +27,3 @@ function linkAction(){
 
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
-
-src="https://smtpjs.com/v3/smtp.js">
-function sendEmail(){
-Email.send({
-      Host : "smtp.gmail.com",
-      Username : "abhishekbs@protonmail.com",
-      Password : "BS@bhishek#261110765",
-      To : 'bsabhishek2611@gmail.com',
-      From : document.getElementById("email").value,
-      Subject : "This is the subject",
-      Body : "And this is the body"
-  }).then(
-    message => alert(sent)
-  );}
